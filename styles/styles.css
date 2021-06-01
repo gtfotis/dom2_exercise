@@ -1,0 +1,83 @@
+html {
+    display: flex;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background-color: rgb(29, 154, 238);
+    color: white;
+    width: 100%;
+    margin: 1%;
+    padding: 1px;
+}
+h3 {
+    font-weight: light;
+    margin: 1%;
+    color: rgba(49, 145, 209, 0.877);
+}
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+    
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+div#container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+div.containerTwo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+div.containerThree {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+p {
+    margin: 1%;
+    margin-bottom: 0%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul.commentsLikes {
+    display: inline-block;
+    text-align: left;
+    background-color: darkorange;
+    margin: 0%;
+}
